@@ -68,7 +68,6 @@ node *mergeTwoLists(struct ListNode* start1, struct ListNode* start2) {
 				if(newstart == NULL)    newstart=start1;
                 prev1=curr1;
                 curr1=curr1->next;
-				// if(curr1->data < curr2->data)	continue;
 				if(prev2 != NULL)
 				{
                 prev2->next=prev1;
